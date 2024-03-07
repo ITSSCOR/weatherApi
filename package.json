@@ -13,22 +13,22 @@
     "express": "^4.18.3",
     "express-validator": "^7.0.1"
   },
-  
   "devDependencies": {
     "@types/node": "^20.11.23",
+    "eslint": "^8.57.0",
     "nodemon": "^3.1.0",
     "npm-run-all": "^4.1.5",
+    "prettier": "^3.2.5",
     "ts-node": "^10.9.2",
     "tslib": "^2.6.2",
     "typescript": "^5.3.3"
   },
   "scripts": {
-     "start": "node dist/src/server.js",
-     "dev": "nodemon dist/src/server.js",
-     "build": "tsc -p tsconfig.json",
-     "build:watch": "tsc -w -p tsconfig.json",
-     "dev:start": "nodemon dist/src/server.js",
-     "test": "echo \"Error: no test specified\" && exit 1"
-    }
-    
+    "start": "node dist/src/server.js",
+    "dev": "nodemon dist/src/server.js",
+    "build": "tsc -p tsconfig.json",
+    "build:watch": "tsc -w -p tsconfig.json",
+    "dev:start": "nodemon dist/src/server.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  }
 }
